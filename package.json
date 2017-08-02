@@ -1,6 +1,6 @@
 {
   "name": "contentful-to-algolia-sync",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Transfer Contentful data to Algolia, fork of contentful-to-algolia by Hans Christian Reinl",
   "main": "index.js",
   "repository": "git@github.com:exodusanto/contentful-to-algolia.git",
