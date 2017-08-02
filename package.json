@@ -1,10 +1,10 @@
 {
-  "name": "contentful-to-algolia",
-  "version": "3.4.0",
-  "description": "Transfer Contentful data to Algolia",
+  "name": "contentful-to-algolia-sync",
+  "version": "0.1.0",
+  "description": "Transfer Contentful data to Algolia, fork of contentful-to-algolia by Hans Christian Reinl",
   "main": "index.js",
-  "repository": "git@github.com:drublic/contentful-to-algolia.git",
-  "author": "Hans Christian Reinl <info@drublic.de>",
+  "repository": "git@github.com:exodusanto/contentful-to-algolia.git",
+  "author": "Hans Christian Reinl <info@drublic.de>, Antonio Dal Sie",
   "license": "MIT",
   "scripts": {
     "js:lint": "eslint {**/,}*.js"
