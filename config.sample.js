@@ -16,13 +16,5 @@ module.exports = {
     host: 'preview.contentful.com' // for Drafts
   },
 
-  locales: [
-    [
-      'en-US',
-      'en'
-    ], [
-      'de-DE',
-      'de'
-    ]
-  ]
+  locales: ['en-US','de-DE']
 };

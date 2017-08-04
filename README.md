@@ -12,7 +12,7 @@ configured.
 ## Documentation
 
 The main method of Sync:
-- `sync(Array <types>, String <indexName>, [Function <callback>])`
+- `sync(String <types>, String <indexName>, Object <params> [Function <callback>])`
   Sync multiple content types from Contentful to Algolia
 
 ## Usage
@@ -27,8 +27,19 @@ The main method of Sync:
     Sync.sync(
       String <type>,
       String <indexName>,
+      Object <params>
       [Function <callback>]
     );
+    // Example params
+    {
+      include: 1 // Contentful deeplink
+      fields:{
+        title: {},
+        image:{
+          url:{}
+        }
+      }
+    }
 
 ## Note
 
